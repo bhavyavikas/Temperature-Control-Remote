@@ -1,0 +1,80 @@
+body {
+  font-family: fantasy;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  border: solid 2px black;
+  border-radius: 20px;
+  height: 400px;
+  width: 300px;
+  background-image: linear-gradient(90deg, #240000 0%, #090979 35%, #00d4ff 100%);
+  opacity: 0.8;
+  box-shadow: 14px 10px 40px -1px rgba(0, 0, 0.75);
+}
+
+.temp-disp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+.temp-display {
+  display: flex;
+  border-radius: 50%;
+  color: #ffffff;
+  height: 220px;
+  width: 220px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  border: 3px #ffffff solid;
+  transition: background 0.5s;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  border-radius: 100px;
+  background-color: rgb(164, 163, 163);
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ffffff;
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgb(184, 184, 184);
+}
+
+button:focus {
+  outline: none;
+}
+
+.neutral {
+  background: #09ea41;
+}
+
+.hot {
+  background: orange;
+}
+
+.cold {
+  background: rgb(61, 175, 246);
+}
